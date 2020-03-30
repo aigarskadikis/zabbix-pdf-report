@@ -67,5 +67,9 @@ vi /usr/share/zabbix-pdf-report/config.inc.php
 
 Use url http://192.168.56.100/zbxreport/chooser.php
 
+## In Production
+
+Before put in production, change in "chooser.php" the line "ZabbixAPI::debugEnabled(TRUE) to FALSE to avoid expose sensitive information.
+
 ## Related
 https://www.zabbix.com/forum/showthread.php?t=24998
